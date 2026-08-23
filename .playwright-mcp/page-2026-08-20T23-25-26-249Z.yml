@@ -1,0 +1,379 @@
+- generic [ref=f43e2]:
+  - banner [ref=f43e3]:
+    - generic [ref=f43e4]:
+      - link "LeadFlow home" [ref=f43e5] [cursor=pointer]:
+        - /url: "#top"
+        - text: LeadFlow
+      - navigation "Primary" [ref=f43e9]:
+        - link "Product" [ref=f43e10] [cursor=pointer]:
+          - /url: "#product"
+        - link "How It Works" [ref=f43e11] [cursor=pointer]:
+          - /url: "#how-it-works"
+        - link "Results" [ref=f43e12] [cursor=pointer]:
+          - /url: "#results"
+        - link "Pricing" [ref=f43e13] [cursor=pointer]:
+          - /url: "#pricing"
+      - generic [ref=f43e14]:
+        - link "Log in" [ref=f43e15] [cursor=pointer]:
+          - /url: http://localhost:3000/login
+        - link "Get started" [ref=f43e16] [cursor=pointer]:
+          - /url: http://localhost:3000/signup
+  - main [ref=f43e19]:
+    - generic [ref=f43e22]:
+      - generic [ref=f43e24]:
+        - generic [ref=f43e25]:
+          - generic [ref=f43e26]: ✦
+          - text: Your always-on lead response team
+        - heading "Turn missed calls into booked jobs." [level=1] [ref=f43e27]
+        - paragraph [ref=f43e28]: LeadFlow responds to new leads, continues the conversation, follows up, and helps book the appointment—while your team stays focused on the work.
+        - generic [ref=f43e29]:
+          - link "Get started" [ref=f43e30] [cursor=pointer]:
+            - /url: http://localhost:3000/signup
+          - link "See how it works" [ref=f43e33] [cursor=pointer]:
+            - /url: "#product"
+        - generic [ref=f43e36]:
+          - generic [ref=f43e37]: Instant response
+          - generic [ref=f43e41]: Less manual follow-up
+          - generic [ref=f43e45]: More booked work
+      - generic [ref=f43e49]:
+        - generic [ref=f43e51]:
+          - generic [ref=f43e52]: LeadFlow · Conversation
+          - generic [ref=f43e58]:
+            - complementary [ref=f43e59]:
+              - generic [ref=f43e60]:
+                - generic [ref=f43e61]: JM
+                - generic [ref=f43e62]:
+                  - generic [ref=f43e63]: Jacob M.
+                  - generic [ref=f43e64]: New lead
+              - generic [ref=f43e65]:
+                - generic [ref=f43e66]: Source
+                - generic [ref=f43e67]: Missed call
+                - generic [ref=f43e68]: Service
+                - generic [ref=f43e69]: AC repair
+                - generic [ref=f43e70]: Status
+                - generic [ref=f43e71]: Qualified
+              - generic [ref=f43e72]: LeadFlow is active
+            - generic [ref=f43e76]:
+              - generic [ref=f43e77]:
+                - generic [ref=f43e78]:
+                  - generic [ref=f43e79]: Jacob Miller
+                  - generic [ref=f43e80]: SMS · (555) 014-8821
+                - generic [ref=f43e81]: Active
+              - generic [ref=f43e82]:
+                - generic [ref=f43e84]:
+                  - generic [ref=f43e89]: Missed call detected
+                  - generic [ref=f43e90]: 10:42 AM
+                - generic [ref=f43e91]: Hi Jacob—sorry we missed your call. How can we help?
+                - generic [ref=f43e93]: My AC stopped working. It’s getting hot in here.
+                - generic [ref=f43e95]: I can help with that. Is the system running but not cooling?
+                - generic [ref=f43e97]: Yes, exactly.
+                - generic [ref=f43e103]:
+                  - generic [ref=f43e104]: Appointment booked
+                  - generic [ref=f43e105]: Tomorrow, 9:00–11:00 AM
+        - generic [ref=f43e112]:
+          - generic [ref=f43e113]: Lead recovered
+          - generic [ref=f43e114]: Appointment added to calendar
+      - link "Scroll to learn more" [ref=f43e115] [cursor=pointer]:
+        - /url: "#problem"
+    - generic [ref=f43e119]:
+      - generic [ref=f43e120]:
+        - generic [ref=f43e121]: The missed-call gap
+        - heading "Every missed call can be a missed job." [level=2] [ref=f43e122]
+        - paragraph [ref=f43e123]: Customers rarely wait around. LeadFlow keeps the opportunity alive from the moment your team can’t answer.
+      - generic [ref=f43e124]:
+        - generic [ref=f43e125]:
+          - generic [ref=f43e126]: Without LeadFlow
+          - generic [ref=f43e132]:
+            - generic [ref=f43e133]: Incoming call
+            - generic [ref=f43e141]: Call missed
+            - generic [ref=f43e149]: Customer waits
+            - generic [ref=f43e156]: Lead lost
+          - generic [ref=f43e164]:
+            - text: Opportunity gone
+            - generic [ref=f43e165]: ×
+        - generic [ref=f43e166]:
+          - generic [ref=f43e167]: With LeadFlow
+          - generic [ref=f43e171]:
+            - generic [ref=f43e172]: Incoming call
+            - generic [ref=f43e180]: Instant response
+            - generic [ref=f43e186]: Conversation
+            - generic [ref=f43e192]: Job booked
+          - generic [ref=f43e198]:
+            - text: Lead recovered
+            - generic [ref=f43e199]: ✓
+    - generic [ref=f43e201]:
+      - generic [ref=f43e202]:
+        - generic [ref=f43e203]: One place to run lead response
+        - heading "See every opportunity. Know what happens next." [level=2] [ref=f43e204]
+        - paragraph [ref=f43e205]: A clear workspace for conversations, follow-up, appointments, and the work LeadFlow is handling for you.
+      - generic [ref=f43e206]:
+        - generic [ref=f43e207]:
+          - generic [ref=f43e208]: ● Example LeadFlow workspace
+          - generic [ref=f43e209]: Illustrative product data
+        - generic [ref=f43e210]:
+          - generic [ref=f43e211]: app.leadflow.com
+          - generic [ref=f43e217]:
+            - complementary [ref=f43e218]:
+              - generic [ref=f43e219]: L
+              - generic [ref=f43e220]: Overview
+              - generic [ref=f43e222]: Inbox
+              - generic [ref=f43e224]: Appointments
+              - generic [ref=f43e226]: Results
+              - generic [ref=f43e228]: Contacts
+              - generic [ref=f43e230]: Knowledge Base
+              - generic [ref=f43e232]: Activity
+              - generic [ref=f43e234]: Settings
+            - main [ref=f43e236]:
+              - generic [ref=f43e237]:
+                - generic [ref=f43e238]:
+                  - text: Overview
+                  - heading "Welcome back, Alex" [level=3] [ref=f43e239]
+                - generic [ref=f43e240]: AS
+              - generic [ref=f43e247]:
+                - generic [ref=f43e248]:
+                  - generic [ref=f43e252]: Open conversations
+                  - generic [ref=f43e253]: "14"
+                  - emphasis [ref=f43e254]: Awaiting a reply
+                - generic [ref=f43e255]:
+                  - generic [ref=f43e259]: Messages sent today
+                  - generic [ref=f43e260]: "32"
+                  - emphasis [ref=f43e261]: Across all channels
+                - generic [ref=f43e262]:
+                  - generic [ref=f43e266]: Automations fired
+                  - generic [ref=f43e267]: "47"
+                  - emphasis [ref=f43e268]: Last 7 days
+                - generic [ref=f43e269]:
+                  - generic [ref=f43e273]: Review requests
+                  - generic [ref=f43e274]: "9"
+                  - emphasis [ref=f43e275]: Last 30 days
+              - generic [ref=f43e276]:
+                - generic [ref=f43e277]:
+                  - generic [ref=f43e278]:
+                    - generic [ref=f43e279]:
+                      - generic [ref=f43e280]: Recent automation decisions
+                      - generic [ref=f43e281]: Every decision is logged with a reason
+                    - generic [ref=f43e282]: Live
+                  - generic [ref=f43e284]:
+                    - generic [ref=f43e285]:
+                      - generic [ref=f43e291]:
+                        - generic [ref=f43e292]: Missed-call text-back
+                        - generic [ref=f43e293]: Completed · Taylor Morgan
+                      - time [ref=f43e294]: Now
+                    - generic [ref=f43e295]:
+                      - generic [ref=f43e299]:
+                        - generic [ref=f43e300]: SMS lead auto-response
+                        - generic [ref=f43e301]: Completed · AI reply sent
+                      - time [ref=f43e302]: 8 sec
+                    - generic [ref=f43e303]:
+                      - generic [ref=f43e308]:
+                        - generic [ref=f43e309]: Appointment booked
+                        - generic [ref=f43e310]: Jordan Lee · AC repair
+                      - time [ref=f43e311]: 12 min
+                - generic [ref=f43e312]:
+                  - generic [ref=f43e314]:
+                    - generic [ref=f43e315]: Upcoming appointments
+                    - generic [ref=f43e316]: Booked and confirmed
+                  - generic [ref=f43e321]:
+                    - generic [ref=f43e322]:
+                      - generic [ref=f43e323]: "18"
+                      - paragraph [ref=f43e324]:
+                        - generic [ref=f43e325]: Jordan Lee
+                        - generic [ref=f43e326]: AC repair · 9:00 AM
+                    - generic [ref=f43e327]:
+                      - generic [ref=f43e328]: "18"
+                      - paragraph [ref=f43e329]:
+                        - generic [ref=f43e330]: Casey Rivera
+                        - generic [ref=f43e331]: Estimate · 1:30 PM
+                  - generic [ref=f43e332]: Reminders schedule automatically for 24h & 1h before
+    - generic [ref=f43e340]:
+      - generic [ref=f43e341]:
+        - generic [ref=f43e342]: How it works
+        - heading "From first contact to a booked appointment." [level=2] [ref=f43e343]
+        - paragraph [ref=f43e344]: LeadFlow steps in at the right moment, keeps the customer engaged, and hands your team a clear result.
+      - generic [ref=f43e345]:
+        - generic [ref=f43e346]:
+          - generic [ref=f43e347]: "01"
+          - generic [ref=f43e353]:
+            - heading "Customer reaches out" [level=3] [ref=f43e354]
+            - paragraph [ref=f43e355]: A call, message, or inquiry comes in.
+        - generic [ref=f43e356]:
+          - generic [ref=f43e357]: "02"
+          - generic [ref=f43e363]:
+            - heading "Opportunity detected" [level=3] [ref=f43e364]
+            - paragraph [ref=f43e365]: LeadFlow recognizes a lead that needs a response.
+        - generic [ref=f43e366]:
+          - generic [ref=f43e367]: "03"
+          - generic [ref=f43e372]:
+            - heading "Response goes out" [level=3] [ref=f43e373]
+            - paragraph [ref=f43e374]: The conversation starts while interest is high.
+        - generic [ref=f43e375]:
+          - generic [ref=f43e376]: "04"
+          - generic [ref=f43e381]:
+            - heading "Conversation continues" [level=3] [ref=f43e382]
+            - paragraph [ref=f43e383]: Questions are answered and the need becomes clear.
+        - generic [ref=f43e384]:
+          - generic [ref=f43e385]: "05"
+          - generic [ref=f43e390]:
+            - heading "Lead is qualified" [level=3] [ref=f43e391]
+            - paragraph [ref=f43e392]: Useful details are collected for your team.
+        - generic [ref=f43e393]:
+          - generic [ref=f43e394]: "06"
+          - generic [ref=f43e399]:
+            - heading "Appointment is booked" [level=3] [ref=f43e400]
+            - paragraph [ref=f43e401]: The customer chooses an available time.
+    - generic [ref=f43e403]:
+      - generic [ref=f43e404]:
+        - generic [ref=f43e405]: Built for the whole follow-up
+        - heading "More than an automatic text." [level=2] [ref=f43e406]
+        - paragraph [ref=f43e407]: LeadFlow helps move the conversation forward—from the first response to the next booked job.
+      - generic [ref=f43e408]:
+        - generic [ref=f43e409]:
+          - heading "Missed call recovery" [level=3] [ref=f43e415]
+          - paragraph [ref=f43e416]: Automatically reach out when your team can’t get to the phone.
+          - generic [ref=f43e417]:
+            - generic [ref=f43e418]: Missed call · 10:42
+            - generic [ref=f43e422]: Reply sent in 4 sec
+        - generic [ref=f43e426]:
+          - heading "AI conversations" [level=3] [ref=f43e431]
+          - paragraph [ref=f43e432]: Keep the conversation moving with helpful, natural replies—not a one-time auto-text.
+          - generic [ref=f43e433]:
+            - generic [ref=f43e434]: Can you come tomorrow?
+            - generic [ref=f43e435]: Yes—9:00 AM is available.
+        - generic [ref=f43e436]:
+          - heading "Smart follow-up" [level=3] [ref=f43e442]
+          - paragraph [ref=f43e443]: Stay in touch with interested leads without adding another task to your day.
+        - generic [ref=f43e444]:
+          - heading "Appointment booking" [level=3] [ref=f43e449]
+          - paragraph [ref=f43e450]: Guide qualified customers toward an available time and put it on the calendar.
+          - generic [ref=f43e451]: Tue, 9:00 AM
+        - generic [ref=f43e458]:
+          - heading "Lead memory" [level=3] [ref=f43e463]
+          - paragraph [ref=f43e464]: Keep important context from past conversations together and ready when you need it.
+        - generic [ref=f43e465]:
+          - heading "Flexible automations" [level=3] [ref=f43e471]
+          - paragraph [ref=f43e472]: Shape how LeadFlow responds in different situations across your business.
+    - generic [ref=f43e475]:
+      - generic [ref=f43e476]:
+        - generic [ref=f43e477]: Connected conversations
+        - heading "Bring your lead channels together." [level=2] [ref=f43e478]
+        - paragraph [ref=f43e479]: Build one clear path from customer inquiry to appointment across the channels your business uses. Channel availability will depend on your LeadFlow setup.
+      - generic "LeadFlow connected to lead channels" [ref=f43e480]:
+        - generic [ref=f43e483]:
+          - generic [ref=f43e488]: LeadFlow
+          - generic [ref=f43e489]: Response engine
+        - generic [ref=f43e490]: Phone
+        - generic [ref=f43e494]: SMS
+        - generic [ref=f43e498]: Email
+        - generic [ref=f43e503]: Social
+        - generic [ref=f43e508]: Calendar
+    - generic [ref=f43e515]:
+      - generic [ref=f43e516]:
+        - generic [ref=f43e520]:
+          - generic [ref=f43e521]: Opportunity calculator
+          - heading "What could missed leads be worth?" [level=2] [ref=f43e522]
+          - paragraph [ref=f43e523]: Use your own numbers to estimate the monthly opportunity sitting behind unanswered calls and messages.
+        - generic [ref=f43e524]: This is an estimate—not a promise of revenue or LeadFlow performance.
+      - generic [ref=f43e527]:
+        - generic [ref=f43e528]:
+          - generic [ref=f43e529]:
+            - generic [ref=f43e530]: Average job value
+            - status "Average job value 500" [ref=f43e531]: $500
+          - slider "Average job value" [ref=f43e532]: "500"
+        - generic [ref=f43e533]:
+          - generic [ref=f43e534]:
+            - generic [ref=f43e535]: Missed leads per month
+            - status "Missed leads per month 30" [ref=f43e536]: "30"
+          - slider "Missed leads per month" [ref=f43e537]: "30"
+        - generic [ref=f43e538]:
+          - generic [ref=f43e539]:
+            - generic [ref=f43e540]: Estimated close rate
+            - status "Estimated close rate 40" [ref=f43e541]: 40%
+          - slider "Estimated close rate" [ref=f43e542]: "40"
+        - generic [ref=f43e543]:
+          - generic [ref=f43e544]: Potential missed opportunity
+          - strong [ref=f43e545]: $6,000/month
+          - paragraph [ref=f43e546]: Based on 30 leads × $500 × 40%
+    - generic [ref=f43e551]:
+      - generic [ref=f43e552]:
+        - generic [ref=f43e553]: Pricing
+        - heading "A plan that fits the way you grow." [level=2] [ref=f43e554]
+        - paragraph [ref=f43e555]: Final plan details are being prepared. Choose the conversation you’d like to start and we’ll help find the right fit.
+      - generic [ref=f43e556]:
+        - generic [ref=f43e557]:
+          - heading "Starter" [level=3] [ref=f43e558]
+          - paragraph [ref=f43e559]: For small teams ready to recover more opportunities.
+          - generic [ref=f43e560]: Coming soon
+          - generic [ref=f43e561]: Pricing and usage allowances to be announced
+          - link "Get updates" [ref=f43e562] [cursor=pointer]:
+            - /url: http://localhost:3000/signup
+          - list [ref=f43e565]:
+            - listitem [ref=f43e566]: Automated lead response
+            - listitem [ref=f43e569]: Conversation inbox
+            - listitem [ref=f43e572]: Appointment handoff
+        - generic [ref=f43e575]:
+          - generic [ref=f43e576]: Most popular
+          - heading "Growth" [level=3] [ref=f43e577]
+          - paragraph [ref=f43e578]: For busy service businesses with more lead volume.
+          - generic [ref=f43e579]: Coming soon
+          - generic [ref=f43e580]: Pricing and usage allowances to be announced
+          - link "Get updates" [ref=f43e581] [cursor=pointer]:
+            - /url: http://localhost:3000/signup
+          - list [ref=f43e584]:
+            - listitem [ref=f43e585]: Everything in Starter
+            - listitem [ref=f43e588]: Smart follow-up
+            - listitem [ref=f43e591]: Advanced automations
+            - listitem [ref=f43e594]: Team reporting
+        - generic [ref=f43e597]:
+          - heading "Scale" [level=3] [ref=f43e598]
+          - paragraph [ref=f43e599]: For multi-location and high-volume operations.
+          - generic [ref=f43e600]: Let’s talk
+          - generic [ref=f43e601]: Pricing and usage allowances to be announced
+          - link "Book a demo" [ref=f43e602] [cursor=pointer]:
+            - /url: "#contact"
+          - list [ref=f43e605]:
+            - listitem [ref=f43e606]: Everything in Growth
+            - listitem [ref=f43e609]: Custom workflows
+            - listitem [ref=f43e612]: Priority support
+            - listitem [ref=f43e615]: Location controls
+    - generic [ref=f43e622]:
+      - paragraph [ref=f43e623]: Ready when the next lead calls.
+      - heading "Your next missed call doesn’t have to become a missed customer." [level=2] [ref=f43e624]
+      - generic [ref=f43e625]:
+        - link "Get started" [ref=f43e626] [cursor=pointer]:
+          - /url: http://localhost:3000/signup
+        - link "Book a demo" [ref=f43e629] [cursor=pointer]:
+          - /url: mailto:hello@leadflow.com?subject=LeadFlow%20demo
+  - contentinfo [ref=f43e630]:
+    - generic [ref=f43e631]:
+      - generic [ref=f43e632]:
+        - generic [ref=f43e633]:
+          - link "LeadFlow home" [ref=f43e634] [cursor=pointer]:
+            - /url: "#top"
+            - text: LeadFlow
+          - paragraph [ref=f43e638]: Faster responses. Better follow-up.More chances to book the job.
+        - generic [ref=f43e639]:
+          - generic [ref=f43e640]:
+            - generic [ref=f43e641]: Product
+            - link "Product" [ref=f43e642] [cursor=pointer]:
+              - /url: "#product"
+            - link "How It Works" [ref=f43e643] [cursor=pointer]:
+              - /url: "#how-it-works"
+            - link "Results" [ref=f43e644] [cursor=pointer]:
+              - /url: "#results"
+            - link "Pricing" [ref=f43e645] [cursor=pointer]:
+              - /url: "#pricing"
+          - generic [ref=f43e646]:
+            - generic [ref=f43e647]: Company
+            - link "Contact" [ref=f43e648] [cursor=pointer]:
+              - /url: mailto:hello@leadflow.com
+            - link "Log in" [ref=f43e652] [cursor=pointer]:
+              - /url: http://localhost:3000/login
+          - generic [ref=f43e656]:
+            - generic [ref=f43e657]: Legal
+            - link "Privacy" [ref=f43e658] [cursor=pointer]:
+              - /url: "#legal"
+            - link "Terms" [ref=f43e659] [cursor=pointer]:
+              - /url: "#legal"
+      - generic [ref=f43e660]:
+        - generic [ref=f43e661]: © 2026 LeadFlow. All rights reserved.
+        - generic [ref=f43e662]: Built for businesses that keep the world running.

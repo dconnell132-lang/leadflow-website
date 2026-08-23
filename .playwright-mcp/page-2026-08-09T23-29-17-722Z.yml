@@ -1,0 +1,420 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - link "LeadFlow home" [ref=e5] [cursor=pointer]:
+          - /url: "#top"
+          - text: LeadFlow
+        - button "Toggle navigation" [expanded] [active] [ref=e683]
+      - navigation "Mobile" [ref=e784]:
+        - link "Product" [ref=e785] [cursor=pointer]:
+          - /url: "#product"
+        - link "How It Works" [ref=e786] [cursor=pointer]:
+          - /url: "#how-it-works"
+        - link "Results" [ref=e787] [cursor=pointer]:
+          - /url: "#results"
+        - link "Pricing" [ref=e788] [cursor=pointer]:
+          - /url: "#pricing"
+        - link "Log in" [ref=e789] [cursor=pointer]:
+          - /url: http://localhost:3000/login
+        - link "Get started" [ref=e790] [cursor=pointer]:
+          - /url: http://localhost:3000/signup
+    - main [ref=e19]:
+      - generic [ref=e22]:
+        - generic [ref=e24]:
+          - generic [ref=e25]:
+            - generic [ref=e26]: ✦
+            - text: Your always-on lead response team
+          - heading "Turn missed calls into booked jobs." [level=1] [ref=e27]
+          - paragraph [ref=e28]: LeadFlow responds to new leads, continues the conversation, follows up, and helps book the appointment—while your team stays focused on the work.
+          - generic [ref=e29]:
+            - link "Get started" [ref=e30] [cursor=pointer]:
+              - /url: http://localhost:3000/signup
+            - link "See how it works" [ref=e33] [cursor=pointer]:
+              - /url: "#product"
+          - generic [ref=e36]:
+            - generic [ref=e37]: Instant response
+            - generic [ref=e41]: Less manual follow-up
+            - generic [ref=e45]: More booked work
+        - generic [ref=e49]:
+          - generic [ref=e51]:
+            - generic [ref=e52]: LeadFlow · Conversation
+            - generic [ref=e76]:
+              - generic [ref=e77]:
+                - generic [ref=e78]:
+                  - generic [ref=e79]: Jamie Miller
+                  - generic [ref=e80]: SMS · (555) 014-8821
+                - generic [ref=e81]: Active
+              - generic [ref=e82]:
+                - generic [ref=e84]:
+                  - generic [ref=e89]: Missed call detected
+                  - generic [ref=e90]: 10:42 AM
+                - generic [ref=e91]: Hi Jamie—sorry we missed your call. How can we help?
+                - generic [ref=e93]: My AC stopped working. It’s getting hot in here.
+                - generic [ref=e95]: I can help with that. Is the system running but not cooling?
+                - generic [ref=e97]: Yes, exactly.
+                - generic [ref=e103]:
+                  - generic [ref=e104]: Appointment booked
+                  - generic [ref=e105]: Tomorrow, 9:00–11:00 AM
+          - generic [ref=e112]:
+            - generic [ref=e113]: Lead recovered
+            - generic [ref=e114]: Appointment added to calendar
+        - link "Scroll to learn more" [ref=e115] [cursor=pointer]:
+          - /url: "#problem"
+      - generic [ref=e119]:
+        - generic [ref=e120]:
+          - generic [ref=e121]: The missed-call gap
+          - heading "Every missed call can be a missed job." [level=2] [ref=e122]
+          - paragraph [ref=e123]: Customers rarely wait around. LeadFlow keeps the opportunity alive from the moment your team can’t answer.
+        - generic [ref=e124]:
+          - generic [ref=e125]:
+            - generic [ref=e126]: Without LeadFlow
+            - generic [ref=e132]:
+              - generic [ref=e133]: Incoming call
+              - generic [ref=e141]: Call missed
+              - generic [ref=e149]: Customer waits
+              - generic [ref=e156]: Lead lost
+            - generic [ref=e164]:
+              - text: Opportunity gone
+              - generic [ref=e165]: ×
+          - generic [ref=e166]:
+            - generic [ref=e167]: With LeadFlow
+            - generic [ref=e171]:
+              - generic [ref=e172]: Incoming call
+              - generic [ref=e180]: Instant response
+              - generic [ref=e186]: Conversation
+              - generic [ref=e192]: Job booked
+            - generic [ref=e198]:
+              - text: Lead recovered
+              - generic [ref=e199]: ✓
+      - generic [ref=e201]:
+        - generic [ref=e202]:
+          - generic [ref=e203]: One place to run lead response
+          - heading "See every opportunity. Know what happens next." [level=2] [ref=e204]
+          - paragraph [ref=e205]: A clear workspace for conversations, follow-up, appointments, and the work LeadFlow is handling for you.
+        - generic [ref=e206]:
+          - generic [ref=e207]: ● Example LeadFlow workspace
+          - generic [ref=e210]:
+            - generic [ref=e211]: app.leadflow.com
+            - generic [ref=e217]:
+              - complementary [ref=e218]:
+                - generic [ref=e219]: L
+                - generic [ref=e220]: Overview
+                - generic [ref=e222]: Inbox
+                - generic [ref=e224]: Appointments
+                - generic [ref=e226]: Results
+                - generic [ref=e228]: Contacts
+                - generic [ref=e230]: Knowledge Base
+                - generic [ref=e232]: Activity
+                - generic [ref=e234]: Settings
+              - main [ref=e236]:
+                - generic [ref=e237]:
+                  - generic [ref=e238]:
+                    - text: Overview
+                    - heading "Welcome back, Alex" [level=3] [ref=e239]
+                  - generic [ref=e240]: AS
+                - generic [ref=e247]:
+                  - generic [ref=e248]:
+                    - generic [ref=e252]: Open conversations
+                    - generic [ref=e253]: "14"
+                  - generic [ref=e255]:
+                    - generic [ref=e259]: Messages sent today
+                    - generic [ref=e260]: "32"
+                  - generic [ref=e262]:
+                    - generic [ref=e266]: Automations fired
+                    - generic [ref=e267]: "47"
+                  - generic [ref=e269]:
+                    - generic [ref=e273]: Review requests
+                    - generic [ref=e274]: "9"
+                - generic [ref=e277]:
+                  - generic [ref=e278]:
+                    - generic [ref=e279]:
+                      - generic [ref=e280]: Recent automation decisions
+                      - generic [ref=e281]: Every decision is logged with a reason
+                    - generic [ref=e282]: Live
+                  - generic [ref=e284]:
+                    - generic [ref=e285]:
+                      - generic [ref=e291]:
+                        - generic [ref=e292]: Missed-call text-back
+                        - generic [ref=e293]: Completed · Taylor Morgan
+                      - time [ref=e294]: Now
+                    - generic [ref=e295]:
+                      - generic [ref=e299]:
+                        - generic [ref=e300]: SMS lead auto-response
+                        - generic [ref=e301]: Completed · AI reply sent
+                      - time [ref=e302]: 8 sec
+                    - generic [ref=e303]:
+                      - generic [ref=e308]:
+                        - generic [ref=e309]: Appointment booked
+                        - generic [ref=e310]: Jordan Lee · AC repair
+                      - time [ref=e311]: 12 min
+      - generic [ref=e686]:
+        - generic [ref=e687]:
+          - generic [ref=e688]: Clarity, not guesswork
+          - heading "See the opportunities your team is recovering." [level=2] [ref=e689]
+          - paragraph [ref=e690]: LeadFlow’s Results view connects calls, replies, appointments, and attributed outcomes—without hiding how the numbers are calculated.
+        - generic [ref=e691]:
+          - generic [ref=e692]:
+            - generic [ref=e693]:
+              - text: Illustrative account · Sample data
+              - heading "Results · August" [level=3] [ref=e694]
+            - combobox "Chart date range" [ref=e695]:
+              - option "Last 8 weeks" [selected]
+          - generic [ref=e696]:
+            - generic [ref=e697]:
+              - generic [ref=e698]: Revenue recovered
+              - strong [ref=e699]:
+                - generic [ref=e700]: $0
+            - generic [ref=e701]:
+              - generic [ref=e702]: Leads captured
+              - strong [ref=e703]: "0"
+            - generic [ref=e704]:
+              - generic [ref=e705]: Missed calls recovered
+              - strong [ref=e706]: "0"
+            - generic [ref=e707]:
+              - generic [ref=e708]: Appointments booked
+              - strong [ref=e709]: "0"
+          - generic [ref=e710]:
+            - generic [ref=e711]:
+              - generic [ref=e712]:
+                - generic [ref=e713]:
+                  - generic [ref=e714]: Recovered leads
+                  - generic [ref=e715]: Consistent response turns into momentum
+                - generic [ref=e716]: Recovered
+              - img "Illustrative chart showing recovered leads increasing over eight weeks" [ref=e718]:
+                - application [ref=e721]:
+                  - generic [ref=e731]:
+                    - generic [ref=e732]:
+                      - generic [ref=e733]: W1
+                      - generic [ref=e735]: W2
+                      - generic [ref=e737]: W3
+                      - generic [ref=e739]: W4
+                      - generic [ref=e741]: W5
+                      - generic [ref=e743]: W6
+                      - generic [ref=e745]: W7
+                      - generic [ref=e747]: W8
+                    - generic [ref=e749]:
+                      - generic [ref=e750]: "0"
+                      - generic [ref=e752]: "35"
+                      - generic [ref=e754]: "70"
+                      - generic [ref=e756]: "105"
+                      - generic [ref=e758]: "140"
+            - generic [ref=e760]:
+              - generic [ref=e761]:
+                - generic [ref=e762]: Lead recovery funnel
+                - generic [ref=e763]: See every step behind the result
+              - generic [ref=e764]:
+                - generic [ref=e765]: Missed calls detected
+                - generic [ref=e766]: "68"
+              - generic [ref=e767]:
+                - generic [ref=e768]: Recovery texts sent
+                - generic [ref=e769]: "61"
+              - generic [ref=e770]:
+                - generic [ref=e771]: Missed calls recovered
+                - generic [ref=e772]: "42"
+              - generic [ref=e773]:
+                - generic [ref=e774]: Appointments booked
+                - generic [ref=e775]: "38"
+              - generic [ref=e776]:
+                - generic [ref=e777]: Appointments confirmed
+                - generic [ref=e778]: "31"
+          - paragraph [ref=e779]: Demo visualization only. These figures do not represent customer results or a guarantee of performance.
+      - generic [ref=e339]:
+        - generic [ref=e340]:
+          - generic [ref=e341]:
+            - generic [ref=e342]: How it works
+            - heading "From first contact to a booked appointment." [level=2] [ref=e343]
+            - paragraph [ref=e344]: LeadFlow steps in at the right moment, keeps the customer engaged, and hands your team a clear result.
+          - generic [ref=e345]:
+            - generic [ref=e346]:
+              - generic [ref=e347]: "01"
+              - generic [ref=e353]:
+                - heading "Customer reaches out" [level=3] [ref=e354]
+                - paragraph [ref=e355]: A call, message, or inquiry comes in.
+            - generic [ref=e356]:
+              - generic [ref=e357]: "02"
+              - generic [ref=e363]:
+                - heading "Opportunity detected" [level=3] [ref=e364]
+                - paragraph [ref=e365]: LeadFlow recognizes a lead that needs a response.
+            - generic [ref=e366]:
+              - generic [ref=e367]: "03"
+              - generic [ref=e372]:
+                - heading "Response goes out" [level=3] [ref=e373]
+                - paragraph [ref=e374]: The conversation starts while interest is high.
+            - generic [ref=e375]:
+              - generic [ref=e376]: "04"
+              - generic [ref=e381]:
+                - heading "Conversation continues" [level=3] [ref=e382]
+                - paragraph [ref=e383]: Questions are answered and the need becomes clear.
+            - generic [ref=e384]:
+              - generic [ref=e385]: "05"
+              - generic [ref=e390]:
+                - heading "Lead is qualified" [level=3] [ref=e391]
+                - paragraph [ref=e392]: Useful details are collected for your team.
+            - generic [ref=e393]:
+              - generic [ref=e394]: "06"
+              - generic [ref=e399]:
+                - heading "Appointment is booked" [level=3] [ref=e400]
+                - paragraph [ref=e401]: The customer chooses an available time.
+        - generic [ref=e402]:
+          - generic [ref=e403]: Phone
+          - generic [ref=e409]: SMS
+          - generic [ref=e413]: Email
+          - generic [ref=e418]: Calendar
+      - generic [ref=e423]:
+        - generic [ref=e424]:
+          - generic [ref=e425]: Built for the whole follow-up
+          - heading "More than an automatic text." [level=2] [ref=e426]
+          - paragraph [ref=e427]: LeadFlow helps move the conversation forward—from the first response to the next booked job.
+        - generic [ref=e428]:
+          - generic [ref=e429]:
+            - heading "Missed call recovery" [level=3] [ref=e435]
+            - paragraph [ref=e436]: Automatically reach out when your team can’t get to the phone.
+            - generic [ref=e437]:
+              - generic [ref=e438]: Missed call · 10:42
+              - generic [ref=e442]: Reply sent in 4 sec
+          - generic [ref=e446]:
+            - heading "AI conversations" [level=3] [ref=e451]
+            - paragraph [ref=e452]: Keep the conversation moving with helpful, natural replies—not a one-time auto-text.
+            - generic [ref=e453]:
+              - generic [ref=e454]: Can you come tomorrow?
+              - generic [ref=e455]: Yes—9:00 AM is available.
+          - generic [ref=e456]:
+            - heading "Smart follow-up" [level=3] [ref=e462]
+            - paragraph [ref=e463]: Stay in touch with interested leads without adding another task to your day.
+          - generic [ref=e464]:
+            - heading "Appointment booking" [level=3] [ref=e469]
+            - paragraph [ref=e470]: Guide qualified customers toward an available time and put it on the calendar.
+            - generic [ref=e471]: Tue, 9:00 AM
+          - generic [ref=e478]:
+            - heading "Lead memory" [level=3] [ref=e483]
+            - paragraph [ref=e484]: Keep important context from past conversations together and ready when you need it.
+          - generic [ref=e485]:
+            - heading "Flexible automations" [level=3] [ref=e491]
+            - paragraph [ref=e492]: Shape how LeadFlow responds in different situations across your business.
+      - generic [ref=e495]:
+        - generic [ref=e496]:
+          - generic [ref=e497]: Connected conversations
+          - heading "Bring your lead channels together." [level=2] [ref=e498]
+          - paragraph [ref=e499]: Build one clear path from customer inquiry to appointment across the channels your business uses. Channel availability will depend on your LeadFlow setup.
+        - generic "LeadFlow connected to lead channels" [ref=e500]:
+          - generic [ref=e503]:
+            - generic [ref=e508]: LeadFlow
+            - generic [ref=e509]: Response engine
+          - generic [ref=e510]: Phone
+          - generic [ref=e514]: SMS
+          - generic [ref=e518]: Email
+          - generic [ref=e523]: Social
+          - generic [ref=e528]: Calendar
+      - generic [ref=e535]:
+        - generic [ref=e536]:
+          - generic [ref=e540]:
+            - generic [ref=e541]: Opportunity calculator
+            - heading "What could missed leads be worth?" [level=2] [ref=e542]
+            - paragraph [ref=e543]: Use your own numbers to estimate the monthly opportunity sitting behind unanswered calls and messages.
+          - generic [ref=e544]: This is an estimate—not a promise of revenue or LeadFlow performance.
+        - generic [ref=e547]:
+          - generic [ref=e548]:
+            - generic [ref=e549]:
+              - generic [ref=e550]: Average job value
+              - status "Average job value 500" [ref=e551]: $500
+            - slider "Average job value" [ref=e552]: "500"
+          - generic [ref=e553]:
+            - generic [ref=e554]:
+              - generic [ref=e555]: Missed leads per month
+              - status "Missed leads per month 30" [ref=e556]: "30"
+            - slider "Missed leads per month" [ref=e557]: "30"
+          - generic [ref=e558]:
+            - generic [ref=e559]:
+              - generic [ref=e560]: Estimated close rate
+              - status "Estimated close rate 40" [ref=e561]: 40%
+            - slider "Estimated close rate" [ref=e562]: "40"
+          - generic [ref=e563]:
+            - generic [ref=e564]: Potential missed opportunity
+            - strong [ref=e565]: $6,000/month
+            - paragraph [ref=e566]: Based on 30 leads × $500 × 40%
+      - generic [ref=e571]:
+        - generic [ref=e572]:
+          - generic [ref=e573]: Pricing
+          - heading "A plan that fits the way you grow." [level=2] [ref=e574]
+          - paragraph [ref=e575]: Final plan details are being prepared. Choose the conversation you’d like to start and we’ll help find the right fit.
+        - generic [ref=e576]:
+          - generic [ref=e577]:
+            - heading "Starter" [level=3] [ref=e578]
+            - paragraph [ref=e579]: For small teams ready to recover more opportunities.
+            - generic [ref=e580]: Coming soon
+            - generic [ref=e581]: Pricing and usage allowances to be announced
+            - link "Get updates" [ref=e582] [cursor=pointer]:
+              - /url: http://localhost:3000/signup
+            - list [ref=e585]:
+              - listitem [ref=e586]: Automated lead response
+              - listitem [ref=e589]: Conversation inbox
+              - listitem [ref=e592]: Appointment handoff
+          - generic [ref=e595]:
+            - generic [ref=e596]: Most popular
+            - heading "Growth" [level=3] [ref=e597]
+            - paragraph [ref=e598]: For busy service businesses with more lead volume.
+            - generic [ref=e599]: Coming soon
+            - generic [ref=e600]: Pricing and usage allowances to be announced
+            - link "Get updates" [ref=e601] [cursor=pointer]:
+              - /url: http://localhost:3000/signup
+            - list [ref=e604]:
+              - listitem [ref=e605]: Everything in Starter
+              - listitem [ref=e608]: Smart follow-up
+              - listitem [ref=e611]: Advanced automations
+              - listitem [ref=e614]: Team reporting
+          - generic [ref=e617]:
+            - heading "Scale" [level=3] [ref=e618]
+            - paragraph [ref=e619]: For multi-location and high-volume operations.
+            - generic [ref=e620]: Let’s talk
+            - generic [ref=e621]: Pricing and usage allowances to be announced
+            - link "Book a demo" [ref=e622] [cursor=pointer]:
+              - /url: "#contact"
+            - list [ref=e625]:
+              - listitem [ref=e626]: Everything in Growth
+              - listitem [ref=e629]: Custom workflows
+              - listitem [ref=e632]: Priority support
+              - listitem [ref=e635]: Location controls
+      - generic [ref=e642]:
+        - paragraph [ref=e643]: Ready when the next lead calls.
+        - heading "Your next missed call doesn’t have to become a missed customer." [level=2] [ref=e644]
+        - generic [ref=e645]:
+          - link "Get started" [ref=e646] [cursor=pointer]:
+            - /url: http://localhost:3000/signup
+          - link "Book a demo" [ref=e649] [cursor=pointer]:
+            - /url: mailto:hello@leadflow.com?subject=LeadFlow%20demo
+    - contentinfo [ref=e650]:
+      - generic [ref=e651]:
+        - generic [ref=e652]:
+          - generic [ref=e653]:
+            - link "LeadFlow home" [ref=e654] [cursor=pointer]:
+              - /url: "#top"
+              - text: LeadFlow
+            - paragraph [ref=e658]: Faster responses. Better follow-up.More chances to book the job.
+          - generic [ref=e659]:
+            - generic [ref=e660]:
+              - generic [ref=e661]: Product
+              - link "Product" [ref=e662] [cursor=pointer]:
+                - /url: "#product"
+              - link "How It Works" [ref=e663] [cursor=pointer]:
+                - /url: "#how-it-works"
+              - link "Results" [ref=e664] [cursor=pointer]:
+                - /url: "#results"
+              - link "Pricing" [ref=e665] [cursor=pointer]:
+                - /url: "#pricing"
+            - generic [ref=e666]:
+              - generic [ref=e667]: Company
+              - link "Contact" [ref=e668] [cursor=pointer]:
+                - /url: mailto:hello@leadflow.com
+              - link "Log in" [ref=e672] [cursor=pointer]:
+                - /url: http://localhost:3000/login
+            - generic [ref=e676]:
+              - generic [ref=e677]: Legal
+              - link "Privacy" [ref=e678] [cursor=pointer]:
+                - /url: "#legal"
+              - link "Terms" [ref=e679] [cursor=pointer]:
+                - /url: "#legal"
+        - generic [ref=e680]:
+          - generic [ref=e681]: © 2026 LeadFlow. All rights reserved.
+          - generic [ref=e682]: Built for businesses that keep the world running.
+  - generic [ref=e780]: "0"

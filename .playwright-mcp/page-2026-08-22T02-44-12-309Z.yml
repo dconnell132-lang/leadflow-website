@@ -1,0 +1,109 @@
+- generic [ref=f1e2]:
+  - banner [ref=f1e3]:
+    - generic [ref=f1e4]:
+      - link "LeadFlow home" [ref=f1e5] [cursor=pointer]:
+        - /url: /
+        - text: LeadFlow
+      - navigation "Primary" [ref=f1e9]:
+        - link "Product" [ref=f1e10] [cursor=pointer]:
+          - /url: /#product
+        - link "How It Works" [ref=f1e11] [cursor=pointer]:
+          - /url: /#how-it-works
+        - link "Results" [ref=f1e12] [cursor=pointer]:
+          - /url: /#results
+        - link "Pricing" [ref=f1e13] [cursor=pointer]:
+          - /url: /#pricing
+        - link "About" [ref=f1e14] [cursor=pointer]:
+          - /url: /about
+      - generic [ref=f1e15]:
+        - link "Log in" [ref=f1e16] [cursor=pointer]:
+          - /url: https://followup-web-3tr7.onrender.com/login
+        - link "Get started" [ref=f1e17] [cursor=pointer]:
+          - /url: https://followup-web-3tr7.onrender.com/signup
+  - main [ref=f1e20]:
+    - generic [ref=f1e23]:
+      - generic [ref=f1e24]:
+        - generic [ref=f1e25]: Our story
+        - heading "LeadFlow started with a wrench in my hand." [level=1] [ref=f1e26]
+        - paragraph [ref=f1e27]: Before I built LeadFlow, I worked as a plumber. That experience showed me how easily a great service business can lose its next customer simply because everyone is busy doing the work.
+        - generic [ref=f1e28]:
+          - link "See how it works" [ref=f1e29] [cursor=pointer]:
+            - /url: /#how-it-works
+          - link "Get started" [ref=f1e32] [cursor=pointer]:
+            - /url: https://followup-web-3tr7.onrender.com/signup
+      - generic [ref=f1e35]:
+        - generic [ref=f1e36]: Why I built LeadFlow
+        - blockquote [ref=f1e41]: “You shouldn’t have to choose between doing the job right and answering the next lead.”
+        - generic [ref=f1e42]:
+          - generic [ref=f1e48]:
+            - generic [ref=f1e49]: Missed call
+            - generic [ref=f1e50]: Opportunity still open
+          - generic [ref=f1e51]: LeadFlow replies
+    - generic [ref=f1e53]:
+      - generic [ref=f1e54]:
+        - generic [ref=f1e55]: From the field
+        - heading "The problem I couldn’t stop thinking about." [level=2] [ref=f1e56]
+      - generic [ref=f1e57]:
+        - paragraph [ref=f1e58]: When your hands are on a job, you cannot always stop to answer the phone. But the person calling does not know that. They only know they need help—and if nobody responds, they may call the next business on the list.
+        - paragraph [ref=f1e59]: I saw that good tradespeople were losing work for reasons that had nothing to do with the quality of their service. The calls, messages, and follow-up were simply too much to manage while running jobs and taking care of customers.
+        - paragraph [ref=f1e60]: "That is what inspired me to build LeadFlow: a system that responds quickly, keeps the conversation moving, follows up, and helps turn interest into a booked appointment. It gives service businesses a reliable front line, even when the whole team is out in the field."
+    - generic [ref=f1e62]:
+      - generic [ref=f1e63]:
+        - generic [ref=f1e64]: What guides us
+        - heading "Built for the people who keep things running." [level=2] [ref=f1e65]
+        - paragraph [ref=f1e66]: "LeadFlow is shaped by a simple idea: hardworking service businesses deserve technology that understands how their day actually works."
+      - generic [ref=f1e67]:
+        - generic [ref=f1e68]:
+          - heading "Built around the real workday" [level=3] [ref=f1e75]
+          - paragraph [ref=f1e76]: LeadFlow is designed for people who are driving, working with their hands, and taking care of customers—not sitting at a desk all day.
+        - generic [ref=f1e77]:
+          - heading "Technology that helps people" [level=3] [ref=f1e81]
+          - paragraph [ref=f1e82]: The goal is not to replace the personal side of a service business. It is to make sure a good customer never gets ignored while the team is busy.
+        - generic [ref=f1e83]:
+          - heading "Every opportunity deserves a response" [level=3] [ref=f1e89]
+          - paragraph [ref=f1e90]: A fast, thoughtful reply can be the difference between a missed call and a booked job. LeadFlow keeps that opportunity alive.
+    - paragraph [ref=f1e96]: Built from firsthand experience. Focused on helping the trades grow.
+    - generic [ref=f1e101]:
+      - paragraph [ref=f1e102]: Ready when the next lead calls.
+      - heading "Your next missed call doesn’t have to become a missed customer." [level=2] [ref=f1e103]
+      - generic [ref=f1e104]:
+        - link "Get started" [ref=f1e105] [cursor=pointer]:
+          - /url: https://followup-web-3tr7.onrender.com/signup
+        - link "Book a demo" [ref=f1e108] [cursor=pointer]:
+          - /url: mailto:hello@leadflow.com?subject=LeadFlow%20demo
+  - contentinfo [ref=f1e109]:
+    - generic [ref=f1e110]:
+      - generic [ref=f1e111]:
+        - generic [ref=f1e112]:
+          - link "LeadFlow home" [ref=f1e113] [cursor=pointer]:
+            - /url: /
+            - text: LeadFlow
+          - paragraph [ref=f1e117]: Faster responses. Better follow-up.More chances to book the job.
+        - generic [ref=f1e118]:
+          - generic [ref=f1e119]:
+            - generic [ref=f1e120]: Product
+            - link "Product" [ref=f1e121] [cursor=pointer]:
+              - /url: /#product
+            - link "How It Works" [ref=f1e122] [cursor=pointer]:
+              - /url: /#how-it-works
+            - link "Results" [ref=f1e123] [cursor=pointer]:
+              - /url: /#results
+            - link "Pricing" [ref=f1e124] [cursor=pointer]:
+              - /url: /#pricing
+          - generic [ref=f1e125]:
+            - generic [ref=f1e126]: Company
+            - link "About" [ref=f1e127] [cursor=pointer]:
+              - /url: /about
+            - link "Contact" [ref=f1e128] [cursor=pointer]:
+              - /url: mailto:hello@leadflow.com
+            - link "Log in" [ref=f1e132] [cursor=pointer]:
+              - /url: https://followup-web-3tr7.onrender.com/login
+          - generic [ref=f1e136]:
+            - generic [ref=f1e137]: Legal
+            - link "Privacy" [ref=f1e138] [cursor=pointer]:
+              - /url: "#legal"
+            - link "Terms" [ref=f1e139] [cursor=pointer]:
+              - /url: "#legal"
+      - generic [ref=f1e140]:
+        - generic [ref=f1e141]: © 2026 LeadFlow. All rights reserved.
+        - generic [ref=f1e142]: Built for businesses that keep the world running.

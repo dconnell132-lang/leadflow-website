@@ -1,0 +1,191 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Eric's Tackle Shop home" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e13]:
+          - generic [ref=e14]: ERIC’S
+          - generic [ref=e15]: TACKLE SHOP · VENTURA
+      - navigation "Main navigation" [ref=e16]:
+        - link "Home" [ref=e17] [cursor=pointer]:
+          - /url: "#top"
+        - link "Gear" [ref=e18] [cursor=pointer]:
+          - /url: "#gear"
+        - link "Services" [ref=e19] [cursor=pointer]:
+          - /url: "#services"
+        - link "About" [ref=e20] [cursor=pointer]:
+          - /url: "#about"
+        - link "Contact" [ref=e21] [cursor=pointer]:
+          - /url: /contact
+      - generic [ref=e22]:
+        - link "(805) 648-5665" [ref=e23] [cursor=pointer]:
+          - /url: tel:+18056485665
+        - link "Get directions" [ref=e26] [cursor=pointer]:
+          - /url: https://www.google.com/maps/dir/?api=1&destination=2127+E+Thompson+Blvd+Ventura+CA+93001
+  - main [ref=e29]:
+    - generic [ref=e30]:
+      - generic [ref=e31]:
+        - paragraph [ref=e32]: Ventura, California · Since 1979
+        - heading [level=1] [ref=e34]:
+          - text: GEAR UP.
+          - emphasis [ref=e35]: GET BIT.
+        - paragraph [ref=e36]: From Channel Islands bass to long-range tuna, get the gear and local knowledge to make your next day on the water count.
+        - generic [ref=e37]:
+          - link "Visit the shop" [ref=e38] [cursor=pointer]:
+            - /url: https://www.google.com/maps/dir/?api=1&destination=2127+E+Thompson+Blvd+Ventura+CA+93001
+          - link "Call (805) 648-5665" [ref=e42] [cursor=pointer]:
+            - /url: tel:+18056485665
+      - link "Explore" [ref=e45] [cursor=pointer]:
+        - /url: "#gear"
+    - generic [ref=e50]:
+      - generic [ref=e51]:
+        - strong [ref=e52]: 45+
+        - generic [ref=e53]: Years servingVentura anglers
+      - generic [ref=e54]:
+        - strong [ref=e55]: "4"
+        - generic [ref=e56]: Ways we help youfish with confidence
+      - generic [ref=e57]: Open six daysa week
+      - generic [ref=e62]: Minutes fromVentura Harbor
+    - generic [ref=e68]:
+      - generic [ref=e69]:
+        - generic [ref=e70]:
+          - paragraph [ref=e71]: What we carry
+          - heading [level=2] [ref=e73]:
+            - text: BUILT FOR THE
+            - emphasis [ref=e74]: WATERS YOU FISH.
+        - paragraph [ref=e75]: Whether you’re heading to the islands, running offshore or working a local lake, we’ll help match your tackle to the trip—not just the trend.
+      - generic [ref=e76]:
+        - article [ref=e77]:
+          - generic [ref=e78]: "01"
+          - heading "Offshore & Big Game" [level=3] [ref=e84]
+          - paragraph [ref=e85]: Purpose-built tackle for tuna, yellowtail, stand-up fishing and the long-range rail.
+          - link "Ask us what you need" [ref=e86] [cursor=pointer]:
+            - /url: /contact
+        - article [ref=e89]:
+          - generic [ref=e90]: "02"
+          - heading "Channel Islands" [level=3] [ref=e98]
+          - paragraph [ref=e99]: Local setups for calico bass, white seabass, halibut and the waters we know best.
+          - link "Ask us what you need" [ref=e100] [cursor=pointer]:
+            - /url: /contact
+        - article [ref=e103]:
+          - generic [ref=e104]: "03"
+          - heading "Freshwater & Bass" [level=3] [ref=e109]
+          - paragraph [ref=e110]: Tournament tackle, trout gear and informed recommendations for Lake Casitas and beyond.
+          - link "Ask us what you need" [ref=e111] [cursor=pointer]:
+            - /url: /contact
+        - article [ref=e114]:
+          - generic [ref=e115]: "04"
+          - heading "Fly Fishing" [level=3] [ref=e120]
+          - paragraph [ref=e121]: Rods, reels, lines and practical guidance for freshwater and coastal fly anglers.
+          - link "Ask us what you need" [ref=e122] [cursor=pointer]:
+            - /url: /contact
+    - generic [ref=e125]:
+      - generic [ref=e126]:
+        - generic [ref=e129]: CHANNEL ISLANDS
+        - generic [ref=e130]: VENTURA
+      - generic [ref=e135]:
+        - paragraph [ref=e136]: Local knowledge
+        - heading [level=2] [ref=e138]:
+          - text: THE RIGHT SETUPSTARTS
+          - emphasis [ref=e139]: HERE.
+        - paragraph [ref=e140]: Conditions change. The fish move. Your tackle should match the water in front of you. Eric’s brings decades of practical experience to every recommendation—from local bass and halibut to offshore yellowtail and tuna.
+        - generic [ref=e141]:
+          - generic [ref=e142]: Calico Bass
+          - generic [ref=e143]: White Seabass
+          - generic [ref=e144]: Halibut
+          - generic [ref=e145]: Yellowtail
+          - generic [ref=e146]: Tuna
+          - generic [ref=e147]: Trout
+    - generic [ref=e149]:
+      - generic [ref=e150]:
+        - paragraph [ref=e151]: More than a tackle shop
+        - heading [level=2] [ref=e153]:
+          - text: SERVICE THAT KEEPSYOU
+          - emphasis [ref=e154]: ON THE WATER.
+      - generic [ref=e155]:
+        - article [ref=e156]:
+          - heading "Custom Rod Building" [level=3] [ref=e162]
+          - paragraph [ref=e163]: A rod designed around your target species, technique and the way you fish.
+        - article [ref=e164]:
+          - heading "Rod & Reel Repair" [level=3] [ref=e168]
+          - paragraph [ref=e169]: Experienced service to help keep trusted equipment ready for the next trip.
+        - article [ref=e170]:
+          - heading "Lure Rigging" [level=3] [ref=e175]
+          - paragraph [ref=e176]: Clean, dependable rigging for local water, offshore runs and long-range trips.
+        - article [ref=e177]:
+          - heading "Boat Outfitting" [level=3] [ref=e186]
+          - paragraph [ref=e187]: Thoughtful tackle and equipment planning for private boats and yachts.
+    - generic [ref=e188]:
+      - generic [ref=e189]: VENTURACALIFORNIA
+      - generic [ref=e191]:
+        - paragraph [ref=e192]: Our story
+        - heading [level=2] [ref=e194]:
+          - text: LOCAL SINCE
+          - emphasis [ref=e195]: DAY ONE.
+        - paragraph [ref=e196]: What began as Moore’s Tackle in 1979 became Eric’s Tackle Shop in 1994—an independent shop built on honest advice, hard-earned experience and a genuine love of fishing.
+        - blockquote [ref=e197]: “The best piece of tackle is the one that’s right for your trip.”
+        - link "Come talk fishing" [ref=e198] [cursor=pointer]:
+          - /url: /contact
+    - generic [ref=e202]:
+      - paragraph [ref=e203]: “
+      - blockquote [ref=e204]: Knowledgeable, friendly service and the kind of local advice you simply can’t get from a big-box store.
+      - generic [ref=e205]: ★★★★★
+      - paragraph [ref=e206]: A common theme from local customer reviews
+    - generic [ref=e208]:
+      - generic [ref=e209]:
+        - paragraph [ref=e210]: Stop in before you head out
+        - heading [level=2] [ref=e212]:
+          - text: YOUR NEXT TRIPSTARTS
+          - emphasis [ref=e213]: HERE.
+        - paragraph [ref=e214]: Tell us where you’re going and what you’re after. We’ll help you leave with the right setup and the confidence to use it.
+        - generic [ref=e215]:
+          - link "Get directions" [ref=e216] [cursor=pointer]:
+            - /url: https://www.google.com/maps/dir/?api=1&destination=2127+E+Thompson+Blvd+Ventura+CA+93001
+          - link "(805) 648-5665" [ref=e220] [cursor=pointer]:
+            - /url: tel:+18056485665
+      - generic [ref=e223]:
+        - paragraph [ref=e228]:
+          - generic [ref=e229]: Eric’s Tackle Shop
+          - generic [ref=e230]: 2127 E Thompson BlvdVentura, CA 93001
+        - separator [ref=e231]
+        - generic [ref=e232]:
+          - generic [ref=e233]: Monday–Friday
+          - generic [ref=e234]: 9 AM–6 PM
+        - generic [ref=e235]:
+          - generic [ref=e236]: Saturday
+          - generic [ref=e237]: 9 AM–5 PM
+        - generic [ref=e238]:
+          - generic [ref=e239]: Sunday
+          - generic [ref=e240]: Closed
+  - contentinfo [ref=e241]:
+    - generic [ref=e242]:
+      - generic [ref=e243]:
+        - link "Eric's Tackle Shop home" [ref=e244] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e252]:
+            - generic [ref=e253]: ERIC’S
+            - generic [ref=e254]: TACKLE SHOP · VENTURA
+        - paragraph [ref=e255]: Real gear. Local knowledge.Ventura fishing since 1979.
+      - generic [ref=e256]:
+        - generic [ref=e257]: Explore
+        - link "Fishing gear" [ref=e258] [cursor=pointer]:
+          - /url: /#gear
+        - link "Our services" [ref=e259] [cursor=pointer]:
+          - /url: /#services
+        - link "Our story" [ref=e260] [cursor=pointer]:
+          - /url: /#about
+      - generic [ref=e261]:
+        - generic [ref=e262]: Visit the shop
+        - link "2127 E Thompson Blvd Ventura, CA 93001" [ref=e263] [cursor=pointer]:
+          - /url: https://www.google.com/maps/dir/?api=1&destination=2127+E+Thompson+Blvd+Ventura+CA+93001
+          - text: 2127 E Thompson BlvdVentura, CA 93001
+        - link "(805) 648-5665" [ref=e264] [cursor=pointer]:
+          - /url: tel:+18056485665
+      - generic [ref=e265]:
+        - generic [ref=e266]: Hours
+        - generic [ref=e267]: Mon–Fri · 9 AM–6 PM
+        - generic [ref=e268]: Saturday · 9 AM–5 PM
+        - generic [ref=e269]: Sunday · Closed
+    - generic [ref=e270]:
+      - generic [ref=e271]: © 2026 Eric’s Tackle Shop
+      - generic [ref=e272]: Independent. Local. Built for the water.
