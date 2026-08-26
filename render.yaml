@@ -1,0 +1,42 @@
+# Render Blueprint for the LeadFlow marketing site.
+#
+# This site serves theleadflowpros.com (the apex). The app is a separate
+# Render service on app.theleadflowpros.com, in the followup-platform repo.
+#
+# Deploy: in Render, New → Blueprint → pick this repo. Pushing to main
+# redeploys, which matters because the VITE_ values in src/config/env.ts are
+# compiled into the bundle at build time — a dashboard change alone is a no-op.
+
+services:
+  # A static site is `type: web` with `runtime: static`. There is no
+  # `type: static` — that spelling is silently rejected.
+  - type: web
+    runtime: static
+    name: leadflow-website
+
+    # --include=dev is load-bearing. The build is `tsc -b && vite build`, but
+    # vite and typescript both live in devDependencies, and a production
+    # install skips those — the build then fails on "vite: not found". The
+    # sibling repo solved the same problem by moving build tools into
+    # dependencies; this flag does it without rearranging package.json.
+    buildCommand: npm ci --include=dev && npm run build
+    staticPublishPath: dist
+
+    # SPA fallback: this is a client-routed site, so /about and /signup are not
+    # files on disk. Without this rule the CDN 404s them — but ONLY on direct
+    # navigation, so clicking through from the homepage still works and the
+    # break hides until someone follows a link from outside.
+    #
+    # The repo also carries public/_redirects (Cloudflare's format) and
+    # public/static.json (Heroku's). Render reads neither. They are kept for
+    # the Cloudflare Pages deployment; this block is what actually applies here.
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
+
+    # Custom domains are deliberately NOT declared here. theleadflowpros.com
+    # and www are currently attached to followup-web, and a domain can only be
+    # on one Render service at a time — declaring them before that service
+    # releases them would fight over the apex. Attach them in the dashboard
+    # once this site is verified on its own onrender.com URL.
