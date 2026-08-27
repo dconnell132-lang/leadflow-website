@@ -5,13 +5,16 @@ import { Navbar } from '../components/layout/Navbar'
 import { Container } from '../components/ui/Primitives'
 import { Button } from '../components/ui/Button'
 import { appConfig, appLinks } from '../config/env'
+import { plan } from '../data/site'
 import { createAccount, requestSignupCode } from '../lib/api'
 
 /**
  * Embedded signup: the account is created against the LeadFlow app's API
  * without leaving the marketing site. Two steps — details, then the 6-digit
  * code we email to prove the address is real. On success the browser follows
- * the app's one-time login link straight into onboarding.
+ * the app's one-time login link, which lands on the app's payment step and
+ * then onboarding. The destination is the app's to decide — we just follow
+ * the continueUrl it hands back.
  */
 export function SignupPage() {
   const [businessName, setBusinessName] = useState('')
@@ -73,7 +76,10 @@ export function SignupPage() {
             <div className="signup-head">
               <div className="eyebrow">Get started</div>
               <h1>Create your LeadFlow account</h1>
-              <p>Set up takes about five minutes — we&apos;ll walk you through it.</p>
+              <p>
+                Free for {plan.trialDays} days. We&apos;ll ask for a card on the next step so we can set up
+                your business line — you won&apos;t be charged today.
+              </p>
             </div>
             <form onSubmit={step === 'details' ? sendCode : submit}>
               <input
@@ -137,7 +143,7 @@ export function SignupPage() {
               </p>
             </form>
             <div className="signup-proof">
-              <span><CheckCircle2 size={15} /> No credit card to start</span>
+              <span><CheckCircle2 size={15} /> {plan.trialDays} days free</span>
               <span><CheckCircle2 size={15} /> Guided setup</span>
               <span><CheckCircle2 size={15} /> Cancel anytime</span>
             </div>

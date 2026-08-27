@@ -16,11 +16,24 @@ export const features = [
   { icon: Workflow, title: 'Flexible automations', text: 'Shape how LeadFlow responds in different situations across your business.' },
 ]
 
-export const plans = [
-  { name: 'Starter', description: 'For small teams ready to recover more opportunities.', price: 'Coming soon', featured: false, features: ['Automated lead response', 'Conversation inbox', 'Appointment handoff'] },
-  { name: 'Growth', description: 'For busy service businesses with more lead volume.', price: 'Coming soon', featured: true, features: ['Everything in Starter', 'Smart follow-up', 'Advanced automations', 'Team reporting'] },
-  { name: 'Scale', description: 'For multi-location and high-volume\u00a0operations.', price: 'Let’s talk', featured: false, features: ['Everything in Growth', 'Custom workflows', 'Priority support', 'Location controls'] },
-]
+// ONE plan. Keep `trialDays` in step with BILLING_TRIAL_DAYS in the app
+// (packages/config/src/env.ts) — the app is what actually sets the trial
+// length at checkout, so if these disagree, this page is the one that is lying.
+export const plan = {
+  name: 'LeadFlow',
+  price: '$99',
+  cadence: 'per month',
+  trialDays: 30,
+  description: 'Everything you need to stop losing customers to missed calls.',
+  features: [
+    'AI receptionist that texts back every missed call',
+    'Your own business line with voicemail and transcripts',
+    'Appointment booking, reminders and review requests',
+    'Shared inbox for texts, Facebook and Instagram',
+    'Unlimited messages \u2014 no per-text charges',
+    'Cancel any time, yourself, in two clicks',
+  ],
+}
 
 export const chartData = [
   { week: 'W1', leads: 8 }, { week: 'W2', leads: 17 }, { week: 'W3', leads: 25 },
