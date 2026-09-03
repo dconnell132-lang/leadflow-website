@@ -20,7 +20,7 @@ export const appLinks = {
   // The signup form now lives ON this site (src/pages/Signup.tsx) and
   // talks to the app's API; login still links through to the app.
   signup: '/signup',
-  demo: '#contact',
+  demo: '/contact',
   // Legal and compliance pages are served by the APP, not this site — it has
   // no routes for them. These were '#legal' placeholders, which is a problem
   // once this site owns the apex: carrier (A2P/TCR), Meta and Google reviewers
@@ -30,7 +30,6 @@ export const appLinks = {
   smsConsent: `${appConfig.appUrl}/sms-consent`,
 }
 
-// The address that actually exists: Namecheap forwards it to the owner's
-// inbox, and SendGrid sends as it. Previously hello@leadflow.com — a domain
-// we do not own, so every demo request sent from this site went nowhere.
-export const contactEmail = 'hello@theleadflowpros.com'
+export const contactEmail = 'useleadflow1@gmail.com'
+export const contactPhone = '+18057984617'
+export const contactPhoneDisplay = '(805) 798-4617'

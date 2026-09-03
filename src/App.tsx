@@ -9,6 +9,7 @@ import { Product } from './components/sections/Product'
 import { Roi } from './components/sections/Roi'
 import { Workflow } from './components/sections/Workflow'
 import { AboutPage } from './pages/About'
+import { ContactPage } from './pages/Contact'
 import { SignupPage } from './pages/Signup'
 
 const Results = lazy(() => import('./components/sections/Results').then(module => ({ default: module.Results })))
@@ -16,6 +17,7 @@ const Results = lazy(() => import('./components/sections/Results').then(module =
 function App() {
   const path = window.location.pathname.replace(/\/+$/, '') || '/'
   if (path === '/about') return <AboutPage />
+  if (path === '/contact') return <ContactPage />
   if (path === '/signup') return <SignupPage />
   return <><Navbar /><main><Hero /><Problem /><Product /><Suspense fallback={<div className="results-placeholder" aria-hidden="true" />}><Results /></Suspense><Workflow /><Features /><Integrations /><Roi /><Pricing /><FinalCta /></main><Footer /></>
 }

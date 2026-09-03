@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { HardHat, HeartHandshake, PhoneCall, Wrench } from 'lucide-react'
+import { Check, HardHat, MessageSquareText, PhoneCall, Wrench } from 'lucide-react'
 import { Reveal } from '../components/animations/Motion'
 import { FinalCta, Footer } from '../components/layout/Footer'
 import { Navbar } from '../components/layout/Navbar'
@@ -10,18 +10,18 @@ import { appLinks } from '../config/env'
 const principles = [
   {
     icon: HardHat,
-    title: 'Built around the real workday',
-    text: 'LeadFlow is designed for people who are driving, working with their hands, and taking care of customers—not sitting at a desk all day.',
-  },
-  {
-    icon: HeartHandshake,
-    title: 'Technology that helps people',
-    text: 'The goal is not to replace the personal side of a service business. It is to make sure a good customer never gets ignored while the team is busy.',
+    title: 'The work has to come first',
+    text: 'When you are in a crawlspace, under a sink, or talking with the customer in front of you, you cannot always stop to answer the next call.',
   },
   {
     icon: PhoneCall,
-    title: 'Every opportunity deserves a response',
-    text: 'A fast, thoughtful reply can be the difference between a missed call and a booked job. LeadFlow keeps that opportunity alive.',
+    title: 'A fast response builds trust',
+    text: 'People call because they need help. A quick, thoughtful response lets them know somebody is there—even when the crew is still on a job.',
+  },
+  {
+    icon: MessageSquareText,
+    title: 'Follow-up should not rely on memory',
+    text: 'Busy days make it easy for a callback or message to slip through. The right system keeps following up so a real opportunity does not disappear.',
   },
 ]
 
@@ -31,8 +31,8 @@ export function AboutPage() {
     const description = document.querySelector<HTMLMetaElement>('meta[name="description"]')
     const previousDescription = description?.content
 
-    document.title = 'About LeadFlow — Built from experience in the trades'
-    if (description) description.content = 'LeadFlow was inspired by firsthand experience in plumbing and built to help service businesses respond to every lead.'
+    document.title = 'About LeadFlow — From plumbing to better lead follow-up'
+    if (description) description.content = 'The founder of LeadFlow worked in plumbing, saw how easily busy service businesses miss new opportunities, and built a better way to respond.'
 
     return () => {
       document.title = previousTitle
@@ -47,9 +47,9 @@ export function AboutPage() {
         <div className="about-grid-bg" />
         <Container className="about-hero-inner">
           <Reveal className="about-hero-copy">
-            <div className="eyebrow">Our story</div>
-            <h1>LeadFlow started with a <span>wrench in my hand.</span></h1>
-            <p>Before I built LeadFlow, I worked as a plumber. That experience showed me how easily a great service business can lose its next customer simply because everyone is busy doing the work.</p>
+            <div className="eyebrow">A founder story from the field</div>
+            <h1>I worked in plumbing. Then I built <span>LeadFlow.</span></h1>
+            <p>Before I ever built software for the trades, I worked in one. Plumbing taught me that a great service business can lose its next customer for one simple reason: everyone is busy taking care of the customer already in front of them.</p>
             <div className="about-hero-actions">
               <Button href="/#how-it-works" arrow>See how it works</Button>
               <Button href={appLinks.signup} variant="secondary">Get started</Button>
@@ -58,9 +58,13 @@ export function AboutPage() {
           <Reveal className="founder-visual" delay={.12}>
             <div className="founder-visual-glow" />
             <div className="founder-card">
-              <div className="founder-card-top"><span><Wrench size={22} /></span><small>Why I built LeadFlow</small></div>
-              <blockquote>“You shouldn’t have to choose between doing the job right and answering the next lead.”</blockquote>
-              <div className="founder-card-call"><span><PhoneCall size={18} /></span><div><small>Missed call</small><b>Opportunity still open</b></div><i>LeadFlow replies</i></div>
+              <div className="founder-card-top"><span><Wrench size={22} /></span><div><small>From plumbing to LeadFlow</small><b>Built from firsthand experience</b></div></div>
+              <blockquote>“The problem wasn’t that we didn’t care about the call. We were already taking care of the customer in front of us.”</blockquote>
+              <div className="founder-path" aria-label="The path from a plumbing job to a LeadFlow response">
+                <div><span><Wrench size={17} /></span><p><small>In the field</small><b>Plumbing job in progress</b></p><Check size={15} /></div>
+                <div><span><PhoneCall size={17} /></span><p><small>Meanwhile</small><b>A new customer calls</b></p><i>Missed</i></div>
+                <div className="is-active"><span><MessageSquareText size={17} /></span><p><small>With LeadFlow</small><b>The conversation starts</b></p><i>Replied</i></div>
+              </div>
             </div>
           </Reveal>
         </Container>
@@ -69,13 +73,14 @@ export function AboutPage() {
       <section className="section founder-story">
         <Container className="founder-story-grid">
           <Reveal className="founder-story-heading">
-            <div className="eyebrow">From the field</div>
-            <h2>The problem I couldn’t stop thinking about.</h2>
+            <div className="eyebrow">Why I built it</div>
+            <h2>I learned the problem on the job—not from a spreadsheet.</h2>
           </Reveal>
           <Reveal className="founder-story-copy" delay={.08}>
-            <p>When your hands are on a job, you cannot always stop to answer the phone. But the person calling does not know that. They only know they need help—and if nobody responds, they may call the next business on the list.</p>
-            <p>I saw that good tradespeople were losing work for reasons that had nothing to do with the quality of their service. The calls, messages, and follow-up were simply too much to manage while running jobs and taking care of customers.</p>
-            <p>That is what inspired me to build LeadFlow: a system that responds quickly, keeps the conversation moving, follows up, and helps turn interest into a booked appointment. It gives service businesses a reliable front line, even when the whole team is out in the field.</p>
+            <p>I know what it is like to be in the middle of a plumbing job when the phone rings. Your hands are full, the customer standing in front of you deserves your attention, and stopping is not always an option.</p>
+            <p>But the person calling does not see any of that. They only know they need help. If nobody answers—or the callback comes too late—they move on. I watched good tradespeople lose good opportunities for reasons that had nothing to do with the quality of their work.</p>
+            <aside>LeadFlow did not come from a theory about the trades. It came from working in one.</aside>
+            <p>That is why I built LeadFlow: to respond while interest is high, keep the conversation moving, follow up consistently, and help get the appointment on the calendar. It gives a busy service business a reliable front line without asking the people doing the work to become full-time receptionists.</p>
           </Reveal>
         </Container>
       </section>
@@ -83,9 +88,9 @@ export function AboutPage() {
       <section className="section about-principles">
         <Container>
           <Reveal className="about-principles-heading">
-            <div className="eyebrow">What guides us</div>
-            <h2>Built for the people who keep things running.</h2>
-            <p>LeadFlow is shaped by a simple idea: hardworking service businesses deserve technology that understands how their day actually works.</p>
+            <div className="eyebrow">What plumbing taught me</div>
+            <h2>Built around how the trades actually work.</h2>
+            <p>Those days in the field still shape every part of LeadFlow—from the speed of the first response to the follow-up that happens after a long day.</p>
           </Reveal>
           <div className="principles-grid">
             {principles.map(({ icon: Icon, title, text }, index) => <Reveal className="principle-card" delay={index * .07} key={title}><span><Icon size={21} /></span><h3>{title}</h3><p>{text}</p></Reveal>)}
@@ -95,7 +100,7 @@ export function AboutPage() {
 
       <section className="founder-close">
         <Container>
-          <Reveal><Wrench size={25} /><p>Built from firsthand experience. Focused on helping the trades grow.</p></Reveal>
+          <Reveal><Wrench size={25} /><p>I built LeadFlow for the businesses doing the work—because I know what that workday feels like.</p></Reveal>
         </Container>
       </section>
       <FinalCta />
